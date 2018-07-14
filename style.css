@@ -26,7 +26,7 @@ a{
 }  
 #header .center{  
     width: 1263px;  
-    height: 65px;  
+    height: 50px;  
     margin: 0 auto;  
 }  
 #header .logo{  
@@ -113,7 +113,7 @@ a{
   
 #menu{  
     width: 1363px;  
-    height: 1700px;  
+    height: 1200px;  
     background-color: #CCCCCC;  
     margin: 30px auto;  
     text-align: center;  
