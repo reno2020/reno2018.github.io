@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>reno</title>
+</head>
+<body>
+
+
+  <!-- <embed border="0"
+       marginwidth="0" marginheight="0"
+       width="250" height="52"
+       src="wxm.mp3"> -->
+
+
+<!-- <iframe frameborder="0" border="1"
+ 　　marginwidth="0" marginheight="0"
+ 　　width="100%" height="360"
+ 　　src="wxm.mp3">
+</iframe> -->
+
+
+<!--声音-->
+<audio id="v1" controls="controls" height="100" width="100" style=" display:none">
+	<source src="wxm-xkfy.mp3" type="audio/mp3" />
+  <embed height="100" width="100" src="wxm-xkfy.mp3" />
+</audio>
+<script>
+  var myVideo1=document.getElementById("v1");
+  function playVid1()
+   {
+  	 myVideo1.play();
+   }
+  function pauseVid1()
+  {
+  	myVideo1.pause();
+  }
+</script>
+<button onClick="playVid1()">播放(笑看风云-汪小敏)</button> <button onClick="pauseVid1()">暂停</button>
+
+
+<br>
+
+<!--声音-->
+<audio id="v2" controls="controls" height="100" width="100" style=" display:none">
+	<source src="lg-hnqc.mp3" type="audio/mp3" />
+  <embed height="100" width="100" src="lg-hnqc.mp3" />
+</audio>
+<script>
+  var myVideo2=document.getElementById("v2");
+  function playVid2()
+   {
+  	 myVideo2.play();
+   }
+  function pauseVid2()
+  {
+  	myVideo2.pause();
+  }
+</script>
+<button onClick="playVid2()">播放(怀念青春-刘刚)</button> <button onClick="pauseVid2()">暂停</button>
+
+<br>
+
+<!--声音-->
+<audio id="v3" controls="controls" height="100" width="100" style=" display:none">
+	<source src="hj-zjzy.mp3" type="audio/mp3" />
+  <embed height="100" width="100" src="hj-zjzy.mp3" />
+</audio>
+<script>
+  var myVideo3=document.getElementById("v3");
+  function playVid3()
+   {
+  	 myVideo3.play();
+   }
+  function pauseVid3()
+  {
+  	myVideo3.pause();
+  }
+</script>
+<button onClick="playVid3()">播放(最近的你是我最远的爱-花姐)</button> <button onClick="pauseVid3()">暂停</button>
+
+
+
+
+
+</body>
+</html>
