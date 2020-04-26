@@ -143,7 +143,25 @@
 
 
 
+<!--声音-->
+<audio id="v7" controls="controls" height="100" width="100" style=" display:none">
+	<source src="mxle-l.mp3" type="audio/mp3" />
+  <embed height="100" width="100" src="mxle-l.mp3" />
+</audio>
+<script>
+  var myVideo7=document.getElementById("v7");
+  function playVid7()
+   {
+  	 myVideo7.play();
+   }
+  function pauseVid7()
+  {
+  	myVideo7.pause();
+  }
+</script>
+<button onClick="playVid7()">播放(马修连恩-狼)</button> <button onClick="pauseVid7()">暂停</button>
 
+<br>
 
 
 
