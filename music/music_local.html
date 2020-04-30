@@ -165,6 +165,31 @@
 
 
 
+<!--声音-->
+<audio id="v8" controls="controls" height="100" width="100" style=" display:none">
+	<source src="mrx-xy.mp3" type="audio/mp3" />
+  <embed height="100" width="100" src="mrx-xy.mp3" />
+</audio>
+<script>
+  var myVideo8=document.getElementById("v8");
+  function playVid8()
+   {
+  	 myVideo8.play();
+   }
+  function pauseVid8()
+  {
+  	myVideo8.pause();
+  }
+</script>
+<button onClick="playVid8()">播放(马若溪-心愿)</button> <button onClick="pauseVid8()">暂停</button>
+
+<br>
+
+
+
+
+
+
 
 </body>
 </html>
