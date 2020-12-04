@@ -253,6 +253,30 @@
 
 
 
+<!--声音-->
+<audio id="v12" controls="controls" height="100" width="100" style=" display:none">
+  <source src="thg-fy.mp3" type="audio/mp3" />
+  <embed height="100" width="100" src="thg-fy.mp3" />
+</audio>
+<script>
+  var myVideo12=document.getElementById("v12");
+  function playVid12()
+   {
+     myVideo12.play();
+   }
+  function pauseVid12()
+  {
+    myVideo12.pause();
+  }
+</script>
+<button onClick="playVid12()">播放(屠洪刚-风云)</button> <button onClick="pauseVid12()">暂停</button>
+
+<br>
+
+
+
+
+
 
 
 </body>
