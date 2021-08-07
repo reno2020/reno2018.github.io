@@ -541,6 +541,29 @@
 
 
 
+<!--声音-->
+<audio id="v25" controls="controls" height="100" width="100" style=" display:none">
+  <source src="lyc-hnyy.mp3" type="audio/mp3" />
+  <embed height="100" width="100" src="lyc-hnyy.mp3" />
+</audio>
+<script>
+  var myVideo25=document.getElementById("v25");
+  function playVid25()
+   {
+     myVideo25.play();
+   }
+  function pauseVid25()
+  {
+    myVideo25.pause();
+  }
+</script>
+<button onClick="playVid25()">播放(李宇春-和你一样)</button> <button onClick="pauseVid25()">暂停</button>
+
+<br>
+
+
+
+
 
 </body>
 </html>
