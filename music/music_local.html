@@ -700,6 +700,26 @@
 
 
 
+<!--声音-->
+<audio id="v32" controls="controls" height="100" width="100" style=" display:none">
+  <source src="cx-dngl.mp3" type="audio/mp3" />
+  <embed height="100" width="100" src="cx-dngl.mp3" />
+</audio>
+<script>
+  var myVideo32=document.getElementById("v32");
+  function playVid32()
+   {
+     myVideo32.play();
+   }
+  function pauseVid32()
+  {
+    myVideo32.pause();
+  }
+</script>
+<button onClick="playVid32()">播放(程响-等你归来)</button> <button onClick="pauseVid32()">暂停</button>
+
+<br>
+
 
 
 
