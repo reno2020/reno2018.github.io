@@ -722,7 +722,25 @@
 
 
 
+<!--声音-->
+<audio id="v33" controls="controls" height="100" width="100" style=" display:none">
+  <source src="stt-gxrs.mp3" type="audio/mp3" />
+  <embed height="100" width="100" src="stt-gxrs.mp3" />
+</audio>
+<script>
+  var myVideo33=document.getElementById("v33");
+  function playVid33()
+   {
+     myVideo33.play();
+   }
+  function pauseVid33()
+  {
+    myVideo33.pause();
+  }
+</script>
+<button onClick="playVid33()">播放(苏谭谭-改写人生)</button> <button onClick="pauseVid33()">暂停</button>
 
+<br>
 
 
 
